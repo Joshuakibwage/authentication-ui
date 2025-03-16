@@ -1,1 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 @import "tailwindcss";
+
+* {
+    font-family: 'Prompt', sans-serif;
+}
+
+@theme {
+    --blue-950: #000914;
+    --blue-900: #001d3d;
+    --blue-800: #003566;
+    --yellow-500: #ffc300;
+    --yellow-400: #ffd60a;
+    --yellow-300: #ffe345;
+
+}
