@@ -8,8 +8,20 @@ const SignInSignUp = () => {
 
   return (
     <div className="min-h-screen flex items-center justify-center bg-linear-135 from-blue-950 via-blue-900
-    to-blue-800 p-8">
-      <div className="@container max-w-md w-full p-8 bg-blue-950/30 rounded-2xl shadow-[0_20px_50px_rgba(0,_29,_61,_0.7)] backdrop:blur-2xl border-blue-800/50 relative">
+    to-blue-800 p-8 relative"
+    >
+        <div className="absolute top-0 left-0 w-full h-full ">
+            <div className="absolute top-[10%] left-[15%] w-72 h-72 rounded-full bg-radial from-yellow-400/40 to-transparent blur-3xl animate-pulse-slow">
+
+            </div>
+            <div className="absolute bottom-[20%] right-[10%] w-84 h-84 rounded-full bg-radial from-yellow-400/40 to-transparent blur-3xl animate-pulse-slow animation-delay-2000">
+
+            </div>
+            <div className="absolute top-[45%] left-[50%] w-84 h-84 rounded-full bg-radial from-yellow-400/40 to-transparent blur-3xl -translate-x-1/2 animate-pulse-slow animation-delay-3000">
+
+            </div>
+        </div>
+      <div className="@container max-w-md w-full p-8 bg-blue-950/30 rounded-2xl shadow-[0_20px_50px_rgba(0,_29,_61,_0.7)] backdrop:blur-2xl border-blue-800/50 relative animate-fadeIn">
 
         <div className="absolute inset-0 bg-gradient-to-br from-blue-800/20 to-transparent rounded-2xl">
 
